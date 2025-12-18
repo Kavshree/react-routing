@@ -1,0 +1,11 @@
+body {
+    margin: 0;
+}
+
+.mr-5 {
+    margin-right: 5rem;
+}
+
+.ml-5 {
+    margin-left: 5rem;
+}

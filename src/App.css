@@ -1,0 +1,14 @@
+nav {
+  background-color:beige;
+  padding: 0.5rem;
+}
+.d-flex{
+  display: flex;
+}
+.flex-row{
+  flex-direction: row;
+}
+
+.flex-justify-evenly {
+  justify-content: space-evenly;
+}
