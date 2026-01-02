@@ -2,6 +2,7 @@ import { useRef } from "react";
 import { ThemeChanger } from "../components/themeChange.jsx";
 import { useEffect } from "react";
 import { useDebugValue } from "react";
+import { Optimistic } from "../components/optimistic.jsx";
 
 export default function Profile() {
     const childRef = useRef();
@@ -13,6 +14,7 @@ export default function Profile() {
     return (
         <>Profile
         <ThemeChanger ref={childRef}></ThemeChanger>
+        <Optimistic />
         </>
     )
 }
